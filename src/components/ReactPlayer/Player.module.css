@@ -1,0 +1,15 @@
+.PlayerContainer {
+  display: flex;
+  flex-grow: 1;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.ReactPlayer {
+  width: 100% !important;
+  height: 100% !important;
+}

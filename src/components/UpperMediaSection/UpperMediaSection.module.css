@@ -1,0 +1,134 @@
+.MediaContainer {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 1920px;
+  max-height: 620px;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.Video {
+  position: relative;
+  top: 0;
+  left: 0;
+  min-width: 70%;
+  max-width: 1390px;
+  max-height: 620px;
+}
+
+.RightSide {
+  display: flex;
+  flex-direction: column;
+}
+
+.TextContainer {
+  background-color: #6eaaae;
+  height: 310px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.TextPosition {
+  padding-left: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  color: #fff;
+  flex-grow: 1;
+}
+
+.TextPosition h3 {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 6px 0;
+}
+
+.TextPosition p {
+  font-style: 16px;
+  font-weight: 400;
+  padding: 12px 0 18px;
+}
+
+.TextPosition button {
+  width: 106px;
+  height: 35px;
+  border: 1px solid #6eaaae;
+  transition: border 0.3s;
+}
+
+.TextPosition button:hover {
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.TextPosition button:hover > a {
+  text-transform: capitalize;
+}
+
+.TextPosition a {
+  color: #6eaaae;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.ImageContainer {
+  flex-grow: 1;
+}
+
+.ImageContainer img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.PromoContainer {
+  position: absolute;
+  bottom: -57px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #6d6d6d;
+  display: flex;
+  height: 114px;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.Promo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 12px;
+  width: 100%;
+  border-right: 1px solid #fff;
+}
+
+.Promo:nth-child(2) {
+  position: relative;
+}
+
+.Promo:nth-last-child(1) {
+  border-right: none;
+}
+
+.Dot {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: -70%;
+  transform: translate(-50%, 50%);
+  background-color: #6eaaae;
+  border: 26px solid #6d6d6d;
+  z-index: -1;
+}

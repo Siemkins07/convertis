@@ -1,0 +1,21 @@
+.NavMenu {
+  width: 100%;
+  padding-top: 180px;
+  height: 246px;
+}
+
+.NavMenuList {
+  display: flex;
+  justify-content: center;
+}
+
+.NavMenuListItem {
+  margin: 0;
+}
+
+.NavMenuListItem a {
+  color: #6d6d6d;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 24px;
+}
